@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="day"
+            type="com.example.yandre.mobileunivesity.pojo.Day">
+
+        </variable>
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp">
+        <!--закруглиться дравебл стилизованый под верх сделать
+        местами четверг поменять-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_card_day"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dayOFWeek_Tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="Четверг"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBaseline_toBaselineOf="@id/date_Tv"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/date_Tv" />
+
+                <TextView
+                    android:id="@+id/date_Tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="8 ноября"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/addLesson_Iv"
+                    app:layout_constraintLeft_toRightOf="@id/dayOFWeek_Tv"
+                    app:layout_constraintRight_toLeftOf="@id/addLesson_Iv"
+                    app:layout_constraintTop_toTopOf="@id/addLesson_Iv" />
+
+                <ImageView
+                    android:id="@+id/addLesson_Iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:tint="@color/white"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:srcCompat="@drawable/ic_addlesson" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/lesson_Rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/card_lesson" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>

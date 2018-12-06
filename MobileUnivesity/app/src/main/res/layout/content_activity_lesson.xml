@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/lightGray"
+    app:behavior_overlapTop="78dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <!--id-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/actLesson_Cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:contentPaddingBottom="16dp"
+        app:contentPaddingLeft="16dp"
+        app:contentPaddingRight="16dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/show_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableEnd="@drawable/ic_map"
+                android:drawableRight="@drawable/ic_map"
+                android:text="Показать на карте "
+                android:textSize="16sp"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorGray"
+                app:layout_constraintTop_toBottomOf="@+id/show_map" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/show_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/v1">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Преподаватль (ведущий)" />
+
+                <TextView
+                    android:id="@+id/teacher_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Мурлин А.Г."
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="@id/t1"
+                    app:layout_constraintTop_toBottomOf="@id/t1" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/Guideline1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.75" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/teacher_avatar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/avatar_img"
+                    app:layout_constraintBottom_toBottomOf="@id/teacher_name"
+                    app:layout_constraintLeft_toRightOf="@+id/Guideline1"
+                    app:layout_constraintRight_toLeftOf="@+id/img_arrow"
+                    app:layout_constraintTop_toTopOf="@+id/t1" />
+
+                <ImageView
+                    android:id="@+id/img_arrow"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_arrow"
+                    app:layout_constraintLeft_toRightOf="@+id/teacher_avatar"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/teacher_avatar" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/show_teacher_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/show_teacher">
+
+                <TextView
+                    android:id="@+id/t1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Преподаватль" />
+
+                <TextView
+                    android:id="@+id/teacher_name_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Иванова Е.А."
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="@id/t1_2"
+                    app:layout_constraintTop_toBottomOf="@id/t1_2" />
+
+                <android.support.constraint.Guideline
+                    android:id="@+id/Guideline1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.75" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/teacher_avatar_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/avatar_img"
+                    app:layout_constraintBottom_toBottomOf="@id/teacher_name_2"
+                    app:layout_constraintLeft_toRightOf="@+id/Guideline1_2"
+                    app:layout_constraintRight_toLeftOf="@+id/img_arrow_2"
+                    app:layout_constraintTop_toTopOf="@+id/t1_2" />
+
+                <ImageView
+                    android:id="@+id/img_arrow_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_arrow"
+                    app:layout_constraintLeft_toRightOf="@+id/teacher_avatar_2"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/teacher_avatar_2" />
+            </android.support.constraint.ConstraintLayout>
+
+            <View
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorGray"
+                app:layout_constraintTop_toBottomOf="@+id/show_teacher_2" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Вид занятия"
+                app:layout_constraintTop_toBottomOf="@+id/v2" />
+
+            <TextView
+                android:id="@+id/type_occupationTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Лекция"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+            <View
+                android:id="@+id/v3"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorGray"
+                app:layout_constraintTop_toBottomOf="@+id/type_occupationTv" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/v3">
+
+                <EditText
+                    android:id="@+id/commentEt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Добавьте комментраий"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textColorHighlight="@color/colorPrimaryDark"
+                    android:textSize="14sp" />
+            </android.support.design.widget.TextInputLayout>
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.v4.widget.NestedScrollView>

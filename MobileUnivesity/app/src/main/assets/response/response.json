@@ -1,0 +1,182 @@
+﻿[
+  {
+    "ScheduleId": "3102",
+    "DisciplineName": "Методы исследования и моделирования процессов и технологий управления",
+    "EmployeesAuditoriums": "Бурда Алексей Григорьевич (16эк)",
+    "LessonNumber": 4,
+    "IsLection": true,
+    "WeekNumber": 1,
+    "DayOfWeek": 2
+  },
+  {
+    "ScheduleId": "3297",
+    "DisciplineName": "Системная инженерия",
+    "EmployeesAuditoriums": "Мурлин Алексей Георгиевич (207эк)",
+    "LessonNumber": 5,
+    "IsLection": false,
+    "WeekNumber": 1,
+    "DayOfWeek": 2
+  },
+  {
+    "ScheduleId": "3389",
+    "DisciplineName": "Современные методы проектирования информационных систем",
+    "EmployeesAuditoriums": "Тюнин Евгений Борисович (201эк)",
+    "LessonNumber": 6,
+    "IsLection": false,
+    "WeekNumber": 1,
+    "DayOfWeek": 2
+  },
+  {
+    "ScheduleId": "4879",
+    "DisciplineName": "Планирование научных исследований и обработка результатов эксперимента",
+    "EmployeesAuditoriums": "Бурда Алексей Григорьевич (315эк)",
+    "LessonNumber": 4,
+    "IsLection": true,
+    "WeekNumber": 1,
+    "DayOfWeek": 3
+  },
+  {
+    "ScheduleId": "5065",
+    "DisciplineName": "Генетическое программирование",
+    "EmployeesAuditoriums": "Павлов Дмитрий Алексеевич (315эк)",
+    "LessonNumber": 5,
+    "IsLection": true,
+    "WeekNumber": 1,
+    "DayOfWeek": 3
+  },
+  {
+    "ScheduleId": "5152",
+    "DisciplineName": "Генетическое программирование",
+    "EmployeesAuditoriums": "Павлов Дмитрий Алексеевич (315эк)",
+    "LessonNumber": 6,
+    "IsLection": false,
+    "WeekNumber": 1,
+    "DayOfWeek": 3
+  },
+  {
+    "ScheduleId": "6206",
+    "DisciplineName": "Агентно-ориентированные системы",
+    "EmployeesAuditoriums": "Павлов Дмитрий Алексеевич (216эк)",
+    "LessonNumber": 3,
+    "IsLection": true,
+    "WeekNumber": 1,
+    "DayOfWeek": 4
+  },
+  {
+    "ScheduleId": "6551",
+    "DisciplineName": "Агентно-ориентированные системы",
+    "EmployeesAuditoriums": "Павлов Дмитрий Алексеевич (213эк)",
+    "LessonNumber": 4,
+    "IsLection": false,
+    "WeekNumber": 1,
+    "DayOfWeek": 4
+  },
+  {
+    "ScheduleId": "6720",
+    "DisciplineName": "Современные методы проектирования информационных систем",
+    "EmployeesAuditoriums": "Тюнин Евгений Борисович (205эк)",
+    "LessonNumber": 5,
+    "IsLection": true,
+    "WeekNumber": 1,
+    "DayOfWeek": 4
+  },
+  {
+    "ScheduleId": "6800",
+    "DisciplineName": "WEB-технологии в идентификации систем",
+    "EmployeesAuditoriums": "Лаптев Сергей Владимирович (1эк)",
+    "LessonNumber": 6,
+    "IsLection": true,
+    "WeekNumber": 1,
+    "DayOfWeek": 4
+  },
+  {
+    "ScheduleId": "11919",
+    "DisciplineName": "Системная инженерия",
+    "EmployeesAuditoriums": "Мурлин Алексей Георгиевич (216эк)",
+    "LessonNumber": 5,
+    "IsLection": true,
+    "WeekNumber": 2,
+    "DayOfWeek": 2
+  },
+  {
+    "ScheduleId": "12000",
+    "DisciplineName": "Системная инженерия",
+    "EmployeesAuditoriums": "Мурлин Алексей Георгиевич (216эк)",
+    "LessonNumber": 6,
+    "IsLection": false,
+    "WeekNumber": 2,
+    "DayOfWeek": 2
+  },
+  {
+    "ScheduleId": "13104",
+    "DisciplineName": "WEB-технологии в идентификации систем",
+    "EmployeesAuditoriums": "Лаптев Сергей Владимирович (307эк)",
+    "LessonNumber": 3,
+    "IsLection": false,
+    "WeekNumber": 2,
+    "DayOfWeek": 3
+  },
+  {
+    "ScheduleId": "13474",
+    "DisciplineName": "Генетическое программирование",
+    "EmployeesAuditoriums": "Павлов Дмитрий Алексеевич (315эк)",
+    "LessonNumber": 4,
+    "IsLection": false,
+    "WeekNumber": 2,
+    "DayOfWeek": 3
+  },
+  {
+    "ScheduleId": "13692",
+    "DisciplineName": "Агентно-ориентированные системы",
+    "EmployeesAuditoriums": "Павлов Дмитрий Алексеевич (307эк)",
+    "LessonNumber": 5,
+    "IsLection": false,
+    "WeekNumber": 2,
+    "DayOfWeek": 3
+  },
+  {
+    "ScheduleId": "13770",
+    "DisciplineName": "Планирование научных исследований и обработка результатов эксперимента",
+    "EmployeesAuditoriums": "Франциско Ольга Юрьевна (213эк)",
+    "LessonNumber": 6,
+    "IsLection": false,
+    "WeekNumber": 2,
+    "DayOfWeek": 3
+  },
+  {
+    "ScheduleId": "15196",
+    "DisciplineName": "Современные методы проектирования информационных систем",
+    "EmployeesAuditoriums": "Тюнин Евгений Борисович (303эк)",
+    "LessonNumber": 4,
+    "IsLection": false,
+    "WeekNumber": 2,
+    "DayOfWeek": 4
+  },
+  {
+    "ScheduleId": "15362",
+    "DisciplineName": "Методы исследования и моделирования процессов и технологий управления",
+    "EmployeesAuditoriums": "Косников Сергей Николаевич (213эк)",
+    "LessonNumber": 5,
+    "IsLection": false,
+    "WeekNumber": 2,
+    "DayOfWeek": 4
+  },
+  {
+    "ScheduleId": "16483",
+    "DisciplineName": "Методология информационных систем и технологий и методы исследований",
+    "EmployeesAuditoriums": "Лаптев Сергей Владимирович (1эк)",
+    "LessonNumber": 3,
+    "IsLection": true,
+    "WeekNumber": 2,
+    "DayOfWeek": 5
+  },
+  {
+    "ScheduleId": "16704",
+    "DisciplineName": "Методология информационных систем и технологий и методы исследований",
+    "EmployeesAuditoriums": "Лаптев Сергей Владимирович (1эк)",
+    "LessonNumber": 4,
+    "IsLection": false,
+    "WeekNumber": 2,
+    "DayOfWeek": 5
+  }
+]

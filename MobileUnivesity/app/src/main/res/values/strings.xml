@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mobile Univesity</string>
+
+    <array name="menuOptions">
+        <item>Расписание</item>
+        <item>Успеваемость</item>
+        <item>Преподаватели</item>
+        <item>Заметки</item>
+    </array>
+
+    <string name="simple_view_behavior">com.zoonref.viewbehavior.SimpleViewBehavior</string>
+    <string name="collapsingImageBehavior">com.example.yandre.mobileunivesity.adapters.layout_behavior.CollapsingImageBehavior</string>
+    <string name="scheduleNotFound">В памяти устройства нет информации о расписании</string>
+    <string name="load_from_server">загрузить данные с сервера?</string>
+    <string name="aaaaaaaaaaaaa">uuiuhdjn</string>
+
+</resources>
